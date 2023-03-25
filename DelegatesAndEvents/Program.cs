@@ -11,8 +11,11 @@ namespace DelegatesAndEvents
             //DelegatesDemo demo = new DelegatesDemo();
             //demo.Run();
 
-            MultiCastDelegates multi = new MultiCastDelegates();
-            multi.Run2();
+            //MultiCastDelegates multi = new MultiCastDelegates();
+            //multi.Run2();
+
+            EventDemo demoevent = new EventDemo();
+            demoevent.Run3();
         }
     }
 }
